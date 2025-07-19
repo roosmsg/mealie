@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-# Fixed Mealie Install Script using community-scripts helpers
+# Fixed Mealie Install Script using TTeck's helper functions
 # Author: Adapted from community-scripts
 # License: MIT
 
-# Source community-scripts helper functions
-source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/includes/functions.sh)
+# Source TTeck Proxmox helper functions
+source <(curl -fsSL https://raw.githubusercontent.com/tteck/Proxmox/0a35b1a5bb3bb8c61aa1e8f95e14048667263101/misc/install.func)
 
 color
 verb_ip6
