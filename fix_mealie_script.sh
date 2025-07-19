@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 
-# Copyright (c) 2021-2025 community-scripts ORG
-# Author: MickLesk (CanbiZ)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
-# Source: https://mealie.io
+# Fixed Mealie Install Script using community-scripts helpers
+# Author: Adapted from community-scripts
+# License: MIT
 
-source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
+# Source community-scripts helper functions
+source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/includes/functions.sh)
+
 color
 verb_ip6
 catch_errors
